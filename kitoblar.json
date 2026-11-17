@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "rasm": "rasmlar/01.jpg",
+    "nom": { "uz": "Bir olimning kundaligi", "en": "A Scholar's Diary" },
+    "muallif": { "uz": "Abul Faraj Abdurahmon ibn Javziy", "en": "Abul Faraj Abdurrahman ibn al-Jawzi" },
+    "tavsif": {
+      "uz": "Nafs bilan kuraş, olimning kundalik hayoti va içki dunyosi haqida kitob.",
+      "en": "A book about the struggle with the self and the daily life and inner world of a scholar."
+    }
+  },
+  {
+    "id": 2,
+    "rasm": "rasmlar/02.jpg",
+    "nom": { "uz": "Ilm oliş yölida 13 tavsiya", "en": "13 Tips on the Path of Seeking Knowledge" },
+    "muallif": { "uz": "Doktor Solih Muhammad Abul Xoj", "en": "Dr. Salih Muhammad Abul Hoj" },
+    "tavsif": {
+      "uz": "Ilm izlovçiga foydali bölgan 13 ta maslahat jamlangan.",
+      "en": "A collection of 13 useful pieces of advice for those who seek knowledge."
+    }
+  },
+  {
+    "id": 3,
+    "rasm": "rasmlar/03.jpg",
+    "nom": { "uz": "Haqiqiy omad kaliti yohud Savdogarlar ustozi", "en": "The Real Key to Luck, or The Teacher of Merchants" },
+    "muallif": { "uz": "Ahadquli Xolmuhammad öğli", "en": "Ahadquli Kholmuhammad ugli" },
+    "tavsif": {
+      "uz": "Savdogarlarga yöl körsatuvçi kitob: omad va muvaffaqiyat kaliti haqida.",
+      "en": "A book that guides merchants, about the key to luck and success."
+    }
+  },
+  {
+    "id": 4,
+    "rasm": "rasmlar/04.jpg",
+    "nom": { "uz": "Ilm oliş sirlari", "en": "Secrets of Acquiring Knowledge" },
+    "muallif": { "uz": "Imom Zarnujiy", "en": "Imam Zarnuji" },
+    "tavsif": {
+      "uz": "Ilm oliş tartibi, ustoz va ilmga bölgan munosabat haqidagi qadimiy asar.",
+      "en": "An old work about how to study and about the attitude toward teachers and knowledge."
+    }
+  },
+  {
+    "id": 5,
+    "rasm": "rasmlar/05.jpg",
+    "nom": { "uz": "Bugun bomdod öqidingizmi?!", "en": "Did You Pray Fajr Today?!" },
+    "muallif": { "uz": "", "en": "" },
+    "tavsif": {
+      "uz": "Bomdod namozini vaqtida öqiş va uni odat qiliş haqida kitob.",
+      "en": "A book about praying the dawn prayer on time and making it a habit."
+    }
+  },
+  {
+    "id": 6,
+    "rasm": "rasmlar/06.jpg",
+    "nom": { "uz": "Hayot binosining ijaraçisi", "en": "The Tenant of the Building of Life" },
+    "muallif": { "uz": "Horun Serkan Oktoş", "en": "Harun Serkan Oktosh" },
+    "tavsif": {
+      "uz": "Hayot nima ekani haqida mulohaza yuritişga çaqiruvçi kitob.",
+      "en": "A book that invites the reader to reflect on what life is."
+    }
+  },
+  {
+    "id": 7,
+    "rasm": "rasmlar/07.jpg",
+    "nom": { "uz": "Turkiy guliston yoxud axloq", "en": "Turkic Rose Garden, or Ethics" },
+    "muallif": { "uz": "Abdulla Avloniy", "en": "Abdulla Avloni" },
+    "tavsif": {
+      "uz": "Tarbiya va axloq haqida, tarbiyani hayot yoki mamot masalasi deb bilgan muallifning asari.",
+      "en": "A book about upbringing and ethics, treated as a matter of life or death for a nation."
+    }
+  },
+  {
+    "id": 8,
+    "rasm": "rasmlar/08.jpg",
+    "nom": { "uz": "Yumşoq kuç", "en": "Soft Power" },
+    "muallif": { "uz": "Jozef Nay", "en": "Joseph Nye" },
+    "tavsif": {
+      "uz": "Jahon siyosatida muvaffaqiyatga erişiş vositalari haqida kitob.",
+      "en": "A book about the means of achieving success in world politics."
+    }
+  },
+  {
+    "id": 9,
+    "rasm": "rasmlar/09.jpg",
+    "nom": { "uz": "Yeçim", "en": "The Solution" },
+    "muallif": { "uz": "Doktor Oiz Karniy", "en": "Dr. Oiz Karniy" },
+    "tavsif": {
+      "uz": "Muammo va qiyinçiliklarni hal qiluvçi kalitlar jamlangan kitob.",
+      "en": "A book collecting keys that solve problems and difficulties."
+    }
+  },
+  {
+    "id": 10,
+    "rasm": "rasmlar/10.jpg",
+    "nom": { "uz": "Finlandiya taʼlim möjizasi", "en": "The Finnish Education Miracle" },
+    "muallif": { "uz": "Timoti Uoker", "en": "Timothy Walker" },
+    "tavsif": {
+      "uz": "Maroqli dars ötişning 33 ta siri haqida kitob.",
+      "en": "A book about 33 secrets of teaching an enjoyable lesson."
+    }
+  }
+]

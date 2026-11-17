@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitobdor.uz</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Tema sahifa chizilishidan oldin qo'yiladi (yaltirab qolmasligi uchun) -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("tema"); } catch (e) {}
+      if (t !== "dark" && t !== "light") {
+        t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.dataset.tema = t;
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Yuqori panel: menyu va til tugmasi -->
+  <header class="tepa">
+    <a class="logo" href="#bosh">Kitobdor.uz</a>
+    <nav>
+      <a href="#bosh" data-t="menyu_bosh">Bosh sahifa</a>
+      <a href="#kitoblar" data-t="menyu_kitoblar">Kitoblar</a>
+      <a href="#aloqa" data-t="menyu_aloqa">Aloqa</a>
+    </nav>
+    <div class="ong">
+      <!-- Tema tugmasi: oy (tungi) / quyosh (kunduzgi) -->
+      <button type="button" id="tema" class="tema"></button>
+      <!-- Til tugmasi: UZ yoki EN -->
+      <div class="til">
+        <button type="button" data-til="uz">UZ</button>
+        <button type="button" data-til="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Bosh sahifa -->
+    <section id="bosh" class="bosh">
+      <h1>Kitobdor.uz</h1>
+      <p class="iqtibos" data-t="iqtibos"></p>
+      <p data-t="kanal_haqida"></p>
+    </section>
+
+    <!-- Kitoblar: kartalarni script.js shu yerga chizadi -->
+    <section id="kitoblar">
+      <h2 data-t="menyu_kitoblar">Kitoblar</h2>
+      <div id="kartalar" class="kartalar"></div>
+    </section>
+
+    <!-- Aloqa -->
+    <section id="aloqa">
+      <h2 data-t="menyu_aloqa">Aloqa</h2>
+      <div class="tugmalar">
+        <a class="tugma" href="https://t.me/kitobdorIsmoil" target="_blank" rel="noopener" data-t="tg_kanal"></a>
+        <a class="tugma" href="https://t.me/Isalomov" target="_blank" rel="noopener" data-t="tg_egasi"></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Kitob batafsil oynasi -->
+  <dialog id="oyna">
+    <button type="button" id="yopish" class="yopish" aria-label="Yopish">×</button>
+    <img id="oyna-rasm" alt="">
+    <h3 id="oyna-nom"></h3>
+    <p id="oyna-muallif" class="muallif"></p>
+    <p id="oyna-tavsif"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
